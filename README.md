@@ -5,7 +5,7 @@
 
 
 ## 1. Data source 
-data source: Geolytics, Neighborhood Change Database (NACD)
+## Geolytics, Neighborhood Change Database (NACD)
 
 Link: http://demographics.geolytics.com/ncdb2010/default.aspx
 
