@@ -163,16 +163,72 @@ Second, there are no households income distribution data in 1990.
 **Thus, if we want to compare thirty years' data together, we have to do comparision of families income and based on 14 income-level groups selected in 1990 data.**
 
 
-**1990 families income(14 groups)**:
+##### 4.1)1990 families income(14 groups)
 
-Families with less than $10000  inc., $10000-14999 inc., $15000-19999, $20000-24999 inc.,$25000-29999 inc.,$30000-34999 inc.,$35000-39999 inc.,$40000-49999 inc.,$50000-59999 inc.,$60000-74999 inc.,$75000-99999 inc.,$100000-124999 inc.,$125000-149999 inc.,$150000+ inc.
+Families with less than $10000  inc., 
+
+$10000-14999 inc., 
+
+$15000-19999 inc., 
+
+$20000-24999 inc.,
+
+$25000-29999 inc.,
+
+$30000-34999 inc.,
+
+$35000-39999 inc.,
+
+$40000-49999 inc.,
+
+$50000-59999 inc.,
+
+$60000-74999 inc.,
+
+$75000-99999 inc.,
+
+$100000-124999 inc.,
+
+$125000-149999 inc.,
+
+$150000+ inc.
 
 - FALTY109, FALT159, FALT209, FALT259, FALT309, FALT359, FALT409, FALT499, FALT609A, FALT759A, FALT1009, FALT1259, FALT1509, FALTMXB9
 
 
-**2000 families/households income(16 groups + 16 group)**: 
+##### 4.2)2000 families/households income(16 groups + 16 groups): 
 
-Families/Households with less than $10000  inc., $10000-14999 inc., $15000-19999, $20000-24999 inc.,$25000-29999 inc.,$30000-34999 inc.,$35000-39999 inc.,$40000-44999 inc.,$45000-49999 inc.,$50000-59999 inc.,$60000-74999 inc.,$75000-99999 inc.,$100000-124999 inc.,$125000-149999 inc.,$150000-199999 inc.,$200000+ inc.
+Families/Households with less than $10000  inc., 
+
+$10000-14999 inc., 
+
+$15000-19999 inc., 
+
+$20000-24999 inc.,
+
+$25000-29999 inc.,
+
+$30000-34999 inc.,
+
+$35000-39999 inc.,
+
+$40000-44999 inc.,
+
+$45000-49999 inc.,
+
+$50000-59999 inc.,
+
+$60000-74999 inc.,
+
+$75000-99999 inc.,
+
+$100000-124999 inc.,
+
+$125000-149999 inc.,
+
+$150000-199999 inc.,
+
+$200000+ inc.
 
 *families income*
 - FAY0100,FAY0150,FAY0200,FAY0250,FAY0300,FAY0350,FAY0400,FAY0450,FAY0500,FAY0600,FAY0750,FAY01000,FAY01250,FAY01500,FAY02000,FAY0M200
@@ -181,9 +237,41 @@ Families/Households with less than $10000  inc., $10000-14999 inc., $15000-19999
 - THY0100,THY0150,THY0200,THY0250,THY0300,THY0350,THY0400,THY0450,THY0500,THY0600,THY0750,THY01000,THY01250,THY01500,THY02000,THY0M200
 
 
-**2010 families/households income(16 groups + 16 group)**: 
+##### 4.3)2010 families/households income(16 groups + 16 groups): 
 
-Families/Households with less than $10000  inc., $10000-14999 inc., $15000-19999, $20000-24999 inc.,$25000-29999 inc.,$30000-34999 inc.,$35000-39999 inc.,$40000-44999 inc.,$45000-49999 inc.,$50000-59999 inc.,$60000-74999 inc.,$75000-99999 inc.,$100000-124999 inc.,$125000-149999 inc.,$150000-199999 inc.,$200000+ inc.
+Families/Households with less than $10000  inc., 
+
+$10000-14999 inc., 
+
+$15000-19999 inc., 
+
+$20000-24999 inc.,
+
+$25000-29999 inc.,
+
+$30000-34999 inc.,
+
+$35000-39999 inc.,
+
+$40000-44999 inc.,
+
+$45000-49999 inc.,
+
+$50000-59999 inc.,
+
+$60000-74999 inc.,
+
+$75000-99999 inc.,
+
+$100000-124999 inc.,
+
+$125000-149999 inc.,
+
+$150000-199999 inc.,
+
+$200000+ inc.
+
+
 
 *families income*
 - FAY0101A,FAY0151A,FAY0201A,FAY0251A,FAY0301A,FAY0351A,FAY0401A,FAY0451A,FAY0501A,FAY0601A,FAY0751A,FAY01001A,FAY01251A,FAY01501A,FAY02001A,FAY0M201A
