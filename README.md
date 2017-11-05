@@ -1,5 +1,7 @@
 # NYC census data 1990-2010
 ## Dataset: geolytics_NYC_census_1990-2010.csv
+Link: https://github.com/picniclin/NYC_yl5240/blob/master/geolytics_NYC_census_1990-2010.csv  
+
 Dataset.shape: 2168 × 146
 
 146 variables, 2168 observations
