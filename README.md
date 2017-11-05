@@ -1,7 +1,10 @@
 # NYC_yl5240
 # NYC census data 1990-2010
-**dataset: geolytics_NYC_census_1990-2010.csv**
-**dataset.shape: 2168 × 146, 146 variables, 2168 observations**
+## Dataset: geolytics_NYC_census_1990-2010.csv**
+
+
+## Dataset.shape: 2168 × 146, 146 variables, 2168 observations
+
 
 In the variables listed in part 4, the key variables we need are **census tract code and their latitude and longitude, total population, median families incomes, families with different income level, median gross rent**.
 
