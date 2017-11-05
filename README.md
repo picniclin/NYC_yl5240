@@ -6,11 +6,11 @@ Dataset.shape: 2168 × 146
 
 
 In the variables listed in part 4, the key variables we need are 
-**- census tract code and their latitude and longitude, 
-- total population, 
-- median families incomes, 
-- families with different income level, 
-- median gross rent**.
+- **census tract code and their latitude and longitude**, 
+- **total population**, 
+- **median families incomes**, 
+- **families with different income level**, 
+- **median gross rent**.
 
 
 ## 1. Data source 
