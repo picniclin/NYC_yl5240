@@ -1,4 +1,3 @@
-# NYC_yl5240
 # NYC census data 1990-2010
 ## Dataset: geolytics_NYC_census_1990-2010.csv**
 
@@ -305,26 +304,41 @@ vacant/ owner occupied/ renter occupied housing units and persons in them
 Total occupied housing units
 - OCCHU9, OCCHU0, OCCHU1
 
+
+
 Total vacant housing units
 - VACHU9, VACHU0, VACHU1
+
+
 
 Total renter-occ. housing units
 - RNTOCC9, RNTOCC0, RNTOCC1
 
+
+
 Total owner-occ. housing units
 - OWNOCC9, OWNOCC0, OWNOCC1
+
+
 
 Total spec. renter-occ. housing units
 - SPRNTOC9, SPRNTOC0, SPRNTOC1
 
+
 Total spec. owner-occ. housing units
 - SPOWNOC9, SPOWNOC0, SPOWNOC1
+
+
 
 Persons in occupied housing units
 - PRSOCU9, PRSOCU0, PRSOCU1
 
+
+
 Persons in owner-occ. housing units
 - PRSOWNU9, PRSOWNU0, PRSOCU1
+
+
 
 Persons in occupied rental units
 - PRSRNTU9, PRSRNTU0, PRSRNTU1
