@@ -3,6 +3,8 @@
 **dataset: geolytics_NYC_census_1990-2010.csv**
 **dataset.shape: 2168 × 146, 146 variables, 2168 observations**
 
+In the variables listed in part 4, the key variables we need are **census tract code and their latitude and longitude, total population, median families incomes, families with different income level, median gross rent**.
+
 
 ## 1. Data source 
 ## Geolytics, Neighborhood Change Database (NACD)
@@ -56,11 +58,11 @@ For census variables, the last first or two characters could used to distinguish
 - 1A means Census ACS2006-2010
 
 
-The columns names and their meaning have been listed below.
+The variables and their columns names are listed below.
 
 
 ### 4.1 Geographical Variables
-**8 Geographical Variables**:
+**Eight Geographical Variables**:
 
 #### 1) census tract code
 Census Tract Identifier
@@ -142,11 +144,19 @@ Average HH. inc.
 
 
 #### 4) income-level groups
-families/household with different income
+
 Since 2000, 16 income-level groups has been divided. 
+
+
 There are differences in 1990 data. 
+
+
 First, it **lack of $45,000-inc.-division and $200,000-inc.-division**, so we select 14 income-level groups for 1990 data, which means $40,00-49,999 in 1990 corresponding to $40,000-44,999 + $45,000-49,999 in 2000 and 2010, $150,000+ in 1990 corresponding to $150,000-199,999 + $200,000+ in 2000 and 2010. 
+
+
 Second, there are no households income distribution data in 1990.
+
+
 **Thus, if we want to compare thirty years' data together, we have to do comparision of families income and based on 14 income-level groups selected in 1990 data.**
 
 
