@@ -12,6 +12,8 @@ Link: http://demographics.geolytics.com/ncdb2010/default.aspx
 introduction: http://guides.library.cornell.edu/c.php?g=31197&p=199283
 
 This dataset includes the Census data of 1970, 1980, 1990 and 2000 at the census tract level.
+
+
 **The reaseon we choose this dataset is that there is a selection ‘All years in 2010 boundaries’ in it. Hence, we do not need to be troubled by the tract change in the 30 years' period.**
 
 
