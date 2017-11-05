@@ -12,12 +12,18 @@ Link: http://demographics.geolytics.com/ncdb2010/default.aspx
 introduction: http://guides.library.cornell.edu/c.php?g=31197&p=199283
 
 This dataset includes the Census data of 1970, 1980, 1990 and 2000 at the census tract level.
-**The reaseon we choose this dataset is that there is a selection ‘All years in 2010 boundaries’ in it and we do not need to be troubled by the tract change in the 30 years' period.**
+**The reaseon we choose this dataset is that there is a selection ‘All years in 2010 boundaries’ in it. Hence, we do not need to be troubled by the tract change in the 30 years' period.**
+
+
 The data of 1990 and 2000 has been recalculated and normalized according to the 2010 tract ID. With this selection, we could do actual comparisons of historic data by the exact same tract boundary definitions for different years. (see [here](http://guides.library.cornell.edu/c.php?g=31197&p=199283) )
+
+
 Before normalized, the observations of 1990, 2000 and 2010 are respectively 2216, 2217 and 2168.
 
 ## 2. Area and Geography
 All the five counties of NYC are considered, and geography is considered at the census tract level.
+
+
 The countyID of the five counties:
 - 36005 Bronx
 - 36047 Kings
@@ -26,20 +32,30 @@ The countyID of the five counties:
 - 36085 Richmond
 
 ## 3. Year and data selection
-We focus on 1990-2010.
+We focus on 1990-2010. 
+
 Decennial Census data is the first choice.
+
+
 But the Census stopped using the long form survey from 2010. Since then, the detailed demographic and socioeconomic data has not been available in the census data reports, including the data we need: **income level, income distribution, house value and rent**. 
+
+
 So we use the **American Community Survey(ACS) 2006-2010** instead for this part of data.
 The data of Census 2010 and ACS2006-2010 combined could be regarded as the data of 2010.
 
 ## 4. Variable selection
 We select **146 variables in total, 8 Geographical Variables and  138 Census Variables**, for Census 1990, 2000, 2010 and ACS2006-2010.
-The columns names and their meaning have been listed below.
+
+
 For census variables, the last first or two characters could used to distinguish the four data source:
 - 9 means Census 1990
 - 0 means Census 2000
 - 1 means Census 2010
 - 1A means Census ACS2006-2010
+
+
+The columns names and their meaning have been listed below.
+
 
 ### 4.1 Geographical Variables
 **8 Geographical Variables**:
@@ -82,19 +98,20 @@ Internal Point(longitude)
 
 
 ### 4.2 Census Variables
-138 Census Variables for four data source are included.
-In 1990 data, it lack of the data about households with different incomes.
+**138 Census Variables** for four data source are included.
+
+- **Census 1990(34)** : 1 population + 2 poverty + 4 median income + 14 families income level groups + 4 housing burden(including median rent) + 9 housing units
+
+- **Census 2000(52)** : 1 population + 2 poverty + 4 median income + 16 families income level groups + 16 households income level groups + 4 housing burden(including median rent) + 9 housing units
+
+- **Census 2010(10)** :1 population + 9 housing units
+
+- **ACS2006-2010(42)** : 2 poverty + 4 median income + 16 families income level groups + 16 households income level groups + 4 housing burden(including median rent)
+
+
+In 1990 data, there is no data about households with different incomes.
 In 2010 data, due to the change of census data report mentioned above, we combine the variables of Census 2000 and ACS2006-2010 together as the 2010 variables.
 
-
-the 138 Census Variables include:
-**Census 1990(34)** : 1 population + 2 poverty + 4 median income + 14 families income level groups + 4 housing burden(including median rent) + 9 housing units
-
-**Census 2000(52)** : 1 population + 2 poverty + 4 median income + 16 families income level groups + 16 households income level groups + 4 housing burden(including median rent) + 9 housing units
-
-**Census 2010(10)** :1 population + 9 housing units
-
-**ACS2006-2010(42)** : 2 poverty + 4 median income + 16 families income level groups + 16 households income level groups + 4 housing burden(including median rent)
 
 
 #### 1) total population 
