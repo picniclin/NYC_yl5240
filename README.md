@@ -243,38 +243,8 @@ $200000+ inc.
 
 ##### 4.3)2010 families/households income(16 groups + 16 groups): 
 
-Families/Households with less than $10000  inc., 
-
-$10000-14999 inc., 
-
-$15000-19999 inc., 
-
-$20000-24999 inc.,
-
-$25000-29999 inc.,
-
-$30000-34999 inc.,
-
-$35000-39999 inc.,
-
-$40000-44999 inc.,
-
-$45000-49999 inc.,
-
-$50000-59999 inc.,
-
-$60000-74999 inc.,
-
-$75000-99999 inc.,
-
-$100000-124999 inc.,
-
-$125000-149999 inc.,
-
-$150000-199999 inc.,
-
-$200000+ inc.
-
+The income level groups are divided as the same way of 2000.
+Data is from ACS2006-2010.
 
 
 *families income*
