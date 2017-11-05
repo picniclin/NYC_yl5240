@@ -39,7 +39,7 @@ We focus on 1990-2010.
 Decennial Census data is the first choice.
 
 
-But the Census stopped using the long form survey from 2010. Since then, the detailed demographic and socioeconomic data has not been available in the census data reports, including the data we need: **income level, income distribution, house value and rent**. 
+But the Census stopped using the long form survey from 2010. Since then, the detailed demographic and socioeconomic data has not been available in the census reports, including the data we need: **income level, income distribution, house value and rent**. 
 
 
 So we use the **American Community Survey(ACS) 2006-2010** instead for this part of data.
