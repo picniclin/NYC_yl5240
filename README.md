@@ -2,6 +2,10 @@
 ## Dataset: geolytics_NYC_census_1990-2010.csv
 Link: https://github.com/picniclin/NYC_yl5240/blob/master/geolytics_NYC_census_1990-2010.csv  
 
+or 
+
+https://drive.google.com/a/nyu.edu/file/d/0B2HY61hRpF-jV21KSTVsbi1wS3M/view?usp=sharing
+
 Dataset.shape: 2168 × 146
 
 146 variables, 2168 observations
