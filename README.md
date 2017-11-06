@@ -214,7 +214,7 @@ Data is from ACS2006-2010.
 - MCSMORT9, MCSMORT0, MCSMORT1A: Median selected mo. owner cost for spec. owner-coo. housing units with a mortgage
 
 
-MCSNMOR9, MCSNMOR0, MCSNMOR1A: Median selected mo. owner cost for spec. owner-coo. housing units with a mortgage
+- MCSNMOR9, MCSNMOR0, MCSNMOR1A: Median selected mo. owner cost for spec. owner-coo. housing units with a mortgage
 
 
 
