@@ -78,38 +78,36 @@ The variables and their columns names are listed below.
 **Eight Geographical Variables**:
 
 #### 1) census tract code
-Census Tract Identifier
-- AREAKEY
+
+- AREAKEY: Census Tract Identifier
 
 
-State
-- STATE
+
+- STATE: State
 
 
-State Abbreviation
-- STUSAB
+
+- STUSAB: State Abbreviation
 
 
-Tract Change Code 1990-2010
-- TCH90_10
+
+- TCH90_10: Tract Change Code 1990-2010
 
 
-Tract Change Code 2000-2010
-- TCH00_10
+
+- TCH00_10: Tract Change Code 2000-2010
 
 
 #### 2) zipcode
-Zip Code Tabulation Area(5-digit)
-- ZCTA5
+
+- ZCTA5: Zip Code Tabulation Area(5-digit)
 
 
 #### 3) latitude and longitude
-Internal Point(latitude)
-- INTPTLAT
 
+- INTPTLAT: Internal Point(latitude)
 
-Internal Point(longitude)
-- INTPTLON
+- INTPTLON: Internal Point(longitude)
 
 
 
@@ -135,25 +133,23 @@ In 2010 data, due to the change of census data report mentioned above, we combin
 - TRCTPOP9, TRCTPOP0, TRCTPOP1
 
 #### 2) poverty
-Total persons below the poverty level
-- POVRAT9N, POVRAT0N, POVRAT1AN
+- POVRAT9N, POVRAT0N, POVRAT1AN: Total persons below the poverty level
 
-Prop. of total persons below the poverty level
-- POVRAT9, POVRAT0, POVRAT1A
+- POVRAT9, POVRAT0, POVRAT1A: Prop. of total persons below the poverty level
 
 
-#### 3) median income
-Median familiy inc.
-- MDFAMY9, MDFAMY0, MDFAMY1A
+#### 3) median & average income
 
-Average inc. per family
-- FAVINC9, FAVINC0, FAVINC1A
+- MDFAMY9, MDFAMY0, MDFAMY1A: Median familiy inc.
 
-Median HH. inc.
-- MDHHY9,MDHHY0, MDHHY1A
 
-Average HH. inc.
-- AVHHIN9, AVHHIN0, AVHHIN1A
+- FAVINC9, FAVINC0, FAVINC1A: Average inc. per family
+
+
+- MDHHY9,MDHHY0, MDHHY1A: Median HH. inc.
+
+
+- AVHHIN9, AVHHIN0, AVHHIN1A: Average HH. inc.
 
 
 #### 4) income-level groups
@@ -175,70 +171,16 @@ Second, there are no households income distribution data in 1990.
 
 ##### 4.1)1990 families income(14 groups)
 
-Families with less than $10000  inc., 
-
-$10000-14999 inc., 
-
-$15000-19999 inc., 
-
-$20000-24999 inc.,
-
-$25000-29999 inc.,
-
-$30000-34999 inc.,
-
-$35000-39999 inc.,
-
-$40000-49999 inc.,
-
-$50000-59999 inc.,
-
-$60000-74999 inc.,
-
-$75000-99999 inc.,
-
-$100000-124999 inc.,
-
-$125000-149999 inc.,
-
-$150000+ inc.
+Families with less than $10000, $10000-14999, $15000-19999, $20000-24999, $25000-29999, $30000-34999 , $35000-39999, $40000-49999, $50000-59999, $60000-74999, $75000-99999,
+$100000-124999, $125000-149999, $150000+ inc.
 
 - FALTY109, FALT159, FALT209, FALT259, FALT309, FALT359, FALT409, FALT499, FALT609A, FALT759A, FALT1009, FALT1259, FALT1509, FALTMXB9
 
 
 ##### 4.2)2000 families/households income(16 groups + 16 groups): 
 
-Families/Households with less than $10000  inc., 
-
-$10000-14999 inc., 
-
-$15000-19999 inc., 
-
-$20000-24999 inc.,
-
-$25000-29999 inc.,
-
-$30000-34999 inc.,
-
-$35000-39999 inc.,
-
-$40000-44999 inc.,
-
-$45000-49999 inc.,
-
-$50000-59999 inc.,
-
-$60000-74999 inc.,
-
-$75000-99999 inc.,
-
-$100000-124999 inc.,
-
-$125000-149999 inc.,
-
-$150000-199999 inc.,
-
-$200000+ inc.
+Families/Households with less than $10000, $10000-14999, $15000-19999, $20000-24999, $25000-29999, $30000-34999 , $35000-39999, $40000-44999, $45000-49999, $50000-59999, $60000-74999, $75000-99999,
+$100000-124999, $125000-149999, $150000-199999, $200000+ inc.
 
 *families income*
 - FAY0100,FAY0150,FAY0200,FAY0250,FAY0300,FAY0350,FAY0400,FAY0450,FAY0500,FAY0600,FAY0750,FAY01000,FAY01250,FAY01500,FAY02000,FAY0M200
@@ -262,67 +204,48 @@ Data is from ACS2006-2010.
 
 
 #### 5) housing burden:
-Median gross rent of spec. renter occ. housing units paying cash rent
-- MDGRENT9, MDGRENT0, MDGRENT1A 
 
-Median value of spec. owner occ. housing units
-- MDVALHS9, MDVALHS0, MDVALHS1A 
+- MDGRENT9, MDGRENT0, MDGRENT1A: Median gross rent of spec. renter occ. housing units paying cash rent
 
 
+- MDVALHS9, MDVALHS0, MDVALHS1A: Median value of spec. owner occ. housing units
 
-Median selected mo. owner cost for spec. owner-coo. housing units with a mortgage
-- MCSMORT9, MCSMORT0, MCSMORT1A
 
-Median selected mo. owner cost for spec. owner-coo. housing units with a mortgage
-MCSNMOR9, MCSNMOR0, MCSNMOR1A
+- MCSMORT9, MCSMORT0, MCSMORT1A: Median selected mo. owner cost for spec. owner-coo. housing units with a mortgage
+
+
+MCSNMOR9, MCSNMOR0, MCSNMOR1A: Median selected mo. owner cost for spec. owner-coo. housing units with a mortgage
 
 
 
 #### 6) housing units
-vacant/ owner occupied/ renter occupied housing units and persons in them
 
 
-Total occupied housing units
-- OCCHU9, OCCHU0, OCCHU1
+- OCCHU9, OCCHU0, OCCHU1: Total occupied housing units
 
 
-
-Total vacant housing units
-- VACHU9, VACHU0, VACHU1
+- VACHU9, VACHU0, VACHU1: Total vacant housing units
 
 
-
-Total renter-occ. housing units
-- RNTOCC9, RNTOCC0, RNTOCC1
+- RNTOCC9, RNTOCC0, RNTOCC1: Total renter-occ. housing units
 
 
-
-Total owner-occ. housing units
-- OWNOCC9, OWNOCC0, OWNOCC1
+- OWNOCC9, OWNOCC0, OWNOCC1: Total owner-occ. housing units
 
 
-
-Total spec. renter-occ. housing units
-- SPRNTOC9, SPRNTOC0, SPRNTOC1
+- SPRNTOC9, SPRNTOC0, SPRNTOC1: Total spec. renter-occ. housing units
 
 
-Total spec. owner-occ. housing units
-- SPOWNOC9, SPOWNOC0, SPOWNOC1
+- SPOWNOC9, SPOWNOC0, SPOWNOC1: Total spec. renter-occ. housing units
 
 
-
-Persons in occupied housing units
-- PRSOCU9, PRSOCU0, PRSOCU1
+- PRSOCU9, PRSOCU0, PRSOCU1: Persons in occupied housing units
 
 
-
-Persons in owner-occ. housing units
-- PRSOWNU9, PRSOWNU0, PRSOCU1
+- PRSOWNU9, PRSOWNU0, PRSOCU1: Persons in owner-occ. housing units
 
 
-
-Persons in occupied rental units
-- PRSRNTU9, PRSRNTU0, PRSRNTU1
+- PRSRNTU9, PRSRNTU0, PRSRNTU1: Persons in occupied rental units
 
 
 
