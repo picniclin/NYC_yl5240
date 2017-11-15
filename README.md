@@ -16,7 +16,7 @@ The reason choosing PUMA as the range of neighborhood is that PUMA is the Census
 - Double check the dataset and the [analysis](https://github.com/picniclin/NYC_yl5240/blob/master/NYC_housing_and_income.ipynb)
 - Explain the results of regression analysis
 - Do other analysis, like Moran's I.
-- More visualization.
+- More visualization, like GIS spatial visualization.
 - Determine the income level split, discuss:  Do we need to re-split the income-level group based on the percent of AMI? If we will do that, how to do?
 
 
