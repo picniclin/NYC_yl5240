@@ -1,7 +1,7 @@
 # NYC census data 1990-2010
 
 # Finished:
-all below work finished could be seen in the [notebook](https://github.com/picniclin/NYC_yl5240/blob/master/NYC_housing_and_income.ipynb)
+all below work finished could be seen in the [notebook](https://github.com/picniclin/NYC_yl5240/blob/master/NYC_housing_and_income.ipynb).
 - **Data clean**
 - **Entropy index calculation**, on cencus tract level and PUMA(Public Use Microdata Area) level 
 - **Visualization** of income, rent and entropy index.
@@ -10,7 +10,7 @@ all below work finished could be seen in the [notebook](https://github.com/picni
 ***Need to be specified***:
 
 
-The reason choosing PUMA as the range of neighborhood is that PUMA is the Census statistical area, created by aggregating census tracts(100k residents, about 40 tracts) and NYC also correlates them with Community Districts, so it's easy to measure and **no boundary error based on census data**. Different levels of geographies' definition could be found [here](https://www.baruch.cuny.edu/confluence/display/geoportal/NYC+Geographies). CUNY also recommends to use PUMA to get neighborhood census data(see [here](http://guides.newman.baruch.cuny.edu/nyc_data/nbhoods))
+The reason choosing PUMA as the range of neighborhood is that PUMA is the Census statistical area, created by aggregating census tracts(100k residents, about 40 tracts) and NYC also correlates them with Community Districts, so it's easy to measure and **no boundary error based on census data**. Different levels of geographies' definition could be found [here](https://www.baruch.cuny.edu/confluence/display/geoportal/NYC+Geographies). CUNY also recommends to use PUMA to get neighborhood census data(see [here](http://guides.newman.baruch.cuny.edu/nyc_data/nbhoods)).
 
 # To be done:
 - Double check the dataset and the [analysis](https://github.com/picniclin/NYC_yl5240/blob/master/NYC_housing_and_income.ipynb)
@@ -20,14 +20,16 @@ The reason choosing PUMA as the range of neighborhood is that PUMA is the Census
 - Determine the income level split, discuss:  Do we need to re-split the income-level group based on the percent of AMI? If we will do that, how to do?
 
 
-Galster(2008): "numerical boundaries defined by HUD guidelines did not match the grouped NCDB income distribution data. Based on U.S. Census procedures, we *interpolated the data in the NCDB groups to obtain a reasonably accurate estimate of family counts within our six income groups*. For the income range of $2,500 or less, we used linear interpolation and, for larger income ranges, we used Pareto interpolation"
+Galster(2008): "numerical boundaries defined by HUD guidelines did not match the grouped NCDB income distribution data. Based on U.S. Census procedures, we *interpolated the data in the NCDB groups to obtain a reasonably accurate estimate of family counts within our six income groups*. For the income range of $2,500 or less, we used linear interpolation and, for larger income ranges, we used Pareto interpolation".
 ![income level group](https://github.com/picniclin/NYC_yl5240/blob/master/income_level_group_based_on_AMI.png)
 
 
 
 
 ## Metholodogy
-Calculate the income entropy index to mearsure the income integration level
+Calculate the income entropy index to mearsure the income integration level.
+
+
 The primary reference(has been uploaded on this [repo](https://github.com/picniclin/NYC_yl5240)): 
 - Income diversity within neighborhoods and very low-income families, Galster, G. C., Booza, J.,&Cutsinger, J. (2008). Cityscape, 10, 257–300.
 - Mixed-income Housing and Neighborhood Integration: Evidence from Inclusionary Zoning Programs
