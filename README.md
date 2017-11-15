@@ -20,7 +20,7 @@ The reason choosing PUMA as the range of neighborhood is that PUMA is the Census
 - Determine the income level split, discuss:  Do we need to re-split the income-level group based on the percent of AMI? If we will do that, how to do?
 
 
-Galster(2008): "numerical boundaries defined by HUD guidelines did not match the grouped NCDB income distribution data. Based on U.S. Census procedures, we *interpolated the data in the NCDB groups to obtain a reasonably accurate estimate of family counts within our six income groups*. For the income range of $2,500 or less, we used linear interpolation and, for larger income ranges, we used Pareto interpolation".
+Galster(2008): "numerical boundaries defined by HUD guidelines did not match the grouped NCDB income distribution data. Based on U.S. Census procedures, we **interpolated the data in the NCDB groups to obtain a reasonably accurate estimate of family counts within our six income groups**. For the income range of $2,500 or less, we used linear interpolation and, for larger income ranges, we used Pareto interpolation".
 ![income level group](https://github.com/picniclin/NYC_yl5240/blob/master/income_level_group_based_on_AMI.png)
 
 
