@@ -1,7 +1,9 @@
 # NYC census data 1990-2010
 
 # Finished:
+(almost all dirty work has been done)
 all below work finished could be seen in the [notebook](https://github.com/picniclin/NYC_yl5240/blob/master/NYC_housing_and_income.ipynb).
+- Data acquisition
 - **Data clean**
 - **Entropy index calculation**, on cencus tract level and PUMA(Public Use Microdata Area) level 
 - **Visualization** of income, rent and entropy index.
