@@ -5,7 +5,7 @@
 - ratio of rent to income
 - entropy index
 
-The clean process could be found on [nyc_housing_income_censustract_Yuwei_1126.ipynb](https://github.com/picniclin/NYC_yl5240/blob/master/nyc_housing_income_censustract_Yuwei_1126.ipynb)
+The clean process could be found on [nyc_censustract_Yuwei_1126.ipynb](https://github.com/picniclin/NYC_yl5240/blob/master/nyc_censustract_Yuwei_1126.ipynb)
 
 Final analysis will be based on civic_census.csv
 
