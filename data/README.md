@@ -9,6 +9,8 @@ geolytics_nyc_census_1990_2010.csv is the dataset for the draft phrase analysis.
 - ratio of rent to income
 - entropy index
 
-The final analysis will be based on civic_census.csv
+The clean process could be found on [nyc_housing_income_censustract_Yuwei_1126.ipynb](https://github.com/picniclin/NYC_yl5240/blob/master/nyc_housing_income_censustract_Yuwei_1126.ipynb)
+
+Final analysis will be based on civic_census.csv
 
 Nov. 26
