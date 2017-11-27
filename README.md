@@ -56,7 +56,7 @@ The entropy index fomuluar is like(Galster, 2008):
 
 
 ## Dataset: geolytics_NYC_census_1990-2010.csv
-Link: https://github.com/picniclin/NYC_yl5240/blob/master/geolytics_NYC_census_1990-2010.csv  
+Link: https://github.com/picniclin/NYC_yl5240/blob/master/data/geolytics_NYC_census_1990-2010.csv  
 
 or 
 
