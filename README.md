@@ -1,5 +1,17 @@
-# NYC census data 1990-2010
+# Nov. 26
+[civic_census.csv](https://github.com/picniclin/NYC_yl5240/blob/master/data/civic_census.csv) is the clean version of [geolytics_nyc_census_1990_2010.csv](https://github.com/picniclin/NYC_yl5240/blob/master/data/geolytics_nyc_census_1990_2010.csv), has the variales below for each census tract in NYC in 1990, 2000, 2010 :
+- median family income income
+- median rent
+- ratio of rent to income
+- entropy index
 
+The clean process could be found on [nyc_housing_income_censustract_Yuwei_1126.ipynb](https://github.com/picniclin/NYC_yl5240/blob/master/nyc_housing_income_censustract_Yuwei_1126.ipynb)
+
+Final analysis will be based on civic_census.csv
+
+----
+
+# Nov. 15
 # Finished:
 (almost all dirty work has been done)
 all below work finished could be seen in the [notebook](https://github.com/picniclin/NYC_yl5240/blob/master/NYC_housing_and_income.ipynb).
