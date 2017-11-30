@@ -1,14 +1,13 @@
-
+## Nov. 29
 normized dataset: civic_census_normed.csv, 2077 rows, having dropped rows with 0 values in the 2168 tracts
 normized and no-outliers dataset: civic_census_normed_dropoutliers.csv, 1770rows
 
 The clean process could be found on [civic_regression_analysis_Yuwei_1129.ipynb](https://github.com/picniclin/NYC_yl5240/blob/master/civic_regression_analysis_Yuwei_1129.ipynb)
 
-Nov. 29
-
 ![change](https://github.com/picniclin/NYC_yl5240/blob/master/data/change1990-2010.png)
 ![change2](https://github.com/picniclin/NYC_yl5240/blob/master/data/change1990-2010_2.png)
 ----
+## Nov. 26
 geolytics_NYC_census_1990-2010.csv is the dataset for the 1st phrase analysis before Nov. 18.
 
 geolytics_nyc_census_1990_2010.csv is the dataset for the draft phrase analysis.
@@ -23,4 +22,4 @@ The clean process could be found on [civic_data_clean_Yuwei_1128.ipynb](https://
 
 Final analysis will be based on civic_census.csv
 
-Nov. 26
+
