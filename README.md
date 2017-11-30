@@ -1,3 +1,34 @@
+# Nov. 29
+## Multi-linear regression analysis conclusion
+
+### Fomular: Rent change ~ Rent + Income + Income change + entropy index + entropy index change + rent units + rent units change
+
+#### Data prepared: normalized 
+
+### Regression results explanation:
+- Rsquared of 1990-2000, and 1990-2000 + 2000-2010 total , is between **0.27-0.3**. However, 2000-2010's Rsquared is pretty low, roughly 0.06. It means that the rent growth are less related to the income, entropy index and number of renter units than before. (**Is that because the rent market has faced more governmental interference recently, like rent control,  rent stabilization, inclusionary zoning programs, public housing, etc.? **)
+
+
+
+- **Income, rent, and income change are always the primary factors** influencing the rent growth.
+
+
+- Rent has the main negative effect on rent growth. Higher rent, slower rent growth, which is obvious.
+
+
+- The number change of rent units also has negative influence on rent growth between 1990-2000, but not statistically significant(p>0.7).
+
+- Entropy index, entropy index change, as well as the number of rent units are not statistically significant in 2000-2010(p>0.2, 0.9, 0.7).
+
+- Generally, **it's hard to find relationship between rent growth with either entropy index, or entropy index change(the coef efficiencies are small)**. They have weak positive corelation with rent growth between 1990-2000, but nearly no corelation relationship between 2000-2010.
+
+### Train-test results:
+- The result is awful if use 1990-2000 model to predict 2000-2010 rent growth. Test Rsquared is negative.
+
+- For the dataset of 1990-2000 + 2000-2010 total, if splited into train-test set, the Rsquared for train and test are both about 0.27. 
+
+
+-------
 # Nov. 26
 Final analysis will be based on [civic_census.csv](https://github.com/picniclin/NYC_yl5240/blob/master/data/civic_census.csv).
 
