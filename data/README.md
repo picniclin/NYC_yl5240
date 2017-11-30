@@ -1,6 +1,6 @@
 ## Nov. 29
-normized dataset: civic_census_normed.csv, 2077 rows, having dropped rows with 0 values in the 2168 tracts
-normized and no-outliers dataset: civic_census_normed_dropoutliers.csv, 1770rows
+normized dataset: [civic_census_normed.csv](https://github.com/picniclin/NYC_yl5240/blob/master/data/civic_census_normed.csv), 2077 rows, having dropped rows with 0 values in the 2168 tracts
+normized and no-outliers dataset: [civic_census_normed_dropoutliers.csv](https://github.com/picniclin/NYC_yl5240/blob/master/data/civic_census_normed_dropoutliers.csv), 1770rows
 
 The clean process could be found on [civic_regression_analysis_Yuwei_1129.ipynb](https://github.com/picniclin/NYC_yl5240/blob/master/civic_regression_analysis_Yuwei_1129.ipynb)
 
