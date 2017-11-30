@@ -1,3 +1,6 @@
+# Nov. 30
+![regression_result](https://github.com/picniclin/NYC_yl5240/blob/master/regression_analysis_result.png)
+------
 # Nov. 29
 ## Multi-linear regression analysis conclusion
 
