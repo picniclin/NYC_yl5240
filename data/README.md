@@ -1,4 +1,4 @@
-The clean process could be found on [civic_clean&descripitive_Yuwei.ipynb](https://github.com/picniclin/NYC_yl5240/blob/master/civic_clean%26descripitive_Yuwei.ipynb)
+The clean process could be found on [civic_clean_descripitive_Yuwei.ipynb](https://github.com/picniclin/NYC_yl5240/blob/master/civic_clean_descripitive_Yuwei.ipynb)
 
 Data set instructions:
 ## 1. raw dataset
